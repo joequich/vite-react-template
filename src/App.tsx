@@ -14,13 +14,13 @@ function App() {
         <div className="card bg-white p-6 rounded-lg shadow-md mb-6">
           <button
             type="button"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+            className="bg-blue-500 text-white px-4 py-2 rounded-sm hover:bg-blue-600"
             onClick={() => setCount((count) => count + 1)}
           >
             count is {count}
           </button>
           <p className="text-gray-700 mt-4">
-            Edit <code className="bg-gray-200 px-1 rounded">src/App.tsx</code> and save to test HMR
+            Edit <code className="bg-gray-200 px-1 rounded-sm">src/App.tsx</code> and save to test HMR
           </p>
         </div>
       </header>
